@@ -5,7 +5,7 @@ services:
   #   image: node:6.9.5-alpine
   #   tty: true
   #   volumes:
-  #     - ".:/usr/app"
+  #     - "/nodejs//usr/app"
 
   rabbitmq:
     image: rabbitmq:management-alpine

@@ -5,13 +5,15 @@ docker-compose up
 to start rabbitmq container
 
 ### For .Net Core
-cd to directory and
-```dotnet restore```
-to restore dependencies
+cd to directory and<br />
+```dotnet restore```<br />
+to restore dependencies<br />
 
-change directory to .net core project and ```dotnet run``` receiver and sender to start application
+change directory to .net core project and<br /> 
+```dotnet run``` <br />
+receiver and sender to start application
 
 ### For NodeJS
-```npm install```
-run ```node receiver.js``` to start app receiver side
+```npm install```<br />
+run ```node receiver.js``` to start app receiver side<br />
 run ```node sender.js``` to start app sender side
